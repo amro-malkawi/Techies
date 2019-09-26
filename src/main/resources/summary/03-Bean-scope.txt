@@ -1,0 +1,19 @@
+1- default singlton
+
+2- prototype:
+  new instance will be created each time its refrenced from context
+  definition is stored in factory , instances are not
+  very useful for transient data or type that flex based on app state
+  -the minutes the instance out of scope it will be available for garbage
+  collector unlike singlton beans which r available for GC when the app
+  is shutting down
+
+3- session: one instance per user session
+    definition is stored in factory , instances are not stored in the factory
+    -the minutes the instance out of scope it will be available for garbage
+      collector
+
+4-request:
+         definition is stored in factory , instances are not stored in the factory
+         -the minutes the instance out of scope it will be available for garbage
+            collector

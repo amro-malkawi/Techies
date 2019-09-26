@@ -1,0 +1,2 @@
+-This project created as a maven project without adding any spring intiliji
+ plugins then we brought all spring libs in pom.xml

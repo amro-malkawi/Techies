@@ -1,0 +1,9 @@
+-Container maintain your calss dependecies
+-object injected at run time not compile time
+-An object accept the dependencies for construction intead of constructing them
+
+benifits of IOC:
+-reduce noise in your code : no copying of constructios again and again ..no noise
+-reduces object coupling
+-reduces defects that arises from incorrect object construction
+- focus on the API contracts

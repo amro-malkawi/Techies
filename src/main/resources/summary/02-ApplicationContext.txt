@@ -1,0 +1,11 @@
+-ApplicationContext is the heart of spring
+-BeanFactory is the ventricles (bo6ayn)of the heart
+-ApplicationContext is a read only wrapper of BeanFactory
+-ApplicationContext is the IOC container
+-Spring app can have one or more applicationContexts running at a given time
+-parent context can interact with children but not the other way around
+- java based config vs xml based...since spring3 java config is the recomended
+-java based config benefits:
+ native language for java developer
+ compile time checking of configuration
+ easier IDE search and refactoring
